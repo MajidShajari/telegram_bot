@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "shijar-bot"
+version = "0.1.0"
+description = "Bot For Telegram"
+authors = ["Majid Shajari <majidpy89@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "shijar_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
